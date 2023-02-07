@@ -113,15 +113,47 @@
 <video controls width="720" height="350" poster="static/Fatimah_in_the_Rain.jpg">
     <source src="static/fatimah-in-the-rain.mp4">
     your browser does not support the video tag
-</video><br>
+</video>
+<br>
 <audio src="static/Vetr-MyAngel.mp3" controls preload="auto"></audio>
 <br>
 <p>with online link</p>
-<video controls width="720" height="350" poster="https://static.navaak.com/images/albums/63a6a79fac41cd1152f419ee/63a6a79fac41cd1152f419ee.jpg">
+<video controls width="720" height="350"
+       poster="https://static.navaak.com/images/albums/63a6a79fac41cd1152f419ee/63a6a79fac41cd1152f419ee.jpg">
     <source src="https://hajifirouz10.asset.aparat.com/aparat-video/12fd58a4a8bb519e752054b08f66640f49528845-480p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6ImRiYmQ2YmFmNDdkZGMwYjAyYzVlMTllZDU5MmZhZmRlIiwiZXhwIjoxNjc1ODAxMzU2LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.fyPhA0oR7yhzeds6-9uaRUjqR5-iPIn2Edix76NNib4">
     your browser does not support the video tag
 </video>
-<hr>
+<br>
 <audio src="https://vetrmusic.com/music/Vetr%20-%20My%20Angel.mp3" controls preload="auto"></audio>
+
+<!--Working with forms-->
+<hr>
+<h2>Forms</h2>
+<form action="#">
+    <label>
+        Username : <input type="text" name="username"><br><br>
+        Email : <input type="email" name="email"><br><br>
+        Password : <input type="password" name="password"><br><br>
+        Gender : <select name="gender">
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+        <option value="rather-not-say">Rather not say</option>
+        <option value="custom">Custom</option>
+    </select><br><br>
+        Birthday : <input type="date" name="birthday"><br><br>
+        Description : <textarea name="description" cols="40" rows="10"></textarea>
+    </label><br><br>
+    <label>
+        Single <input type="radio" name="status">
+    </label>
+    <label>
+        Married <input type="radio" name="status">
+    </label><br><br>
+    <label>
+        Remember Me : <input type="checkbox" name="remember">
+    </label><br><br>
+    <input type="submit" name="submit_input" value="login with input">
+    <button type="submit" name="submit_btn">login with button</button>
+</form>
 </body>
 </html>
